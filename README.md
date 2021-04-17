@@ -10,15 +10,15 @@ plugins=(... lando-alias)
 
 ## ALIASES:
 
-| Alias   | Description                                                                                                             |
-|:-------:|:-----------------------------------------------------------------------------------------------------------------------:|
-| `lcfg`  | `lando config' #Displays the lando configuration`                                                                       |
-| `linf`  | `lando info' #Prints info about your app`                                                                               |
-| `loff`  | `lando poweroff' #Spins down all lando related containers`                                                              |
-| `lrbld` | `lando rebuild --y --verbose' #Rebuilds your app from scratch, preserving data, non-interactively with extra verbosity` |
-| `lstp`  | `lando stop' #Stops your app`                                                                                           |
-| `lssh`  | `lando ssh --user root' #Drops into a shell on a service, runs commands as root`                                        |
-| `lstrt` | `lando start' #Starts your app`                                                                                         |
+| Alias   | Lando command                 | Description                                                                              |
+|:--------|:------------------------------|:-----------------------------------------------------------------------------------------|
+| `lcfg`  | `lando config`                | Displays the lando configuration                                                         |
+| `linf`  | `lando info`                  | Prints info about your app                                                               |
+| `loff`  | `lando poweroff`              |  Spins down all lando related containers                                                 |
+| `lrbld` | `lando rebuild --y --verbose` | Rebuilds your app from scratch, preserving data, non-interactively with extra verbosity` |
+| `lstp`  | `lando stop`                  | Stops your app                                                                           |
+| `lssh`  | `lando ssh --user root`       | Drops into a shell on a service, runs commands as root                                   |
+| `lstrt` | `lando start`                 | Starts your app                                                                          |
 
 ## Author:
 
