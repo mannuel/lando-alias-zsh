@@ -2,7 +2,7 @@
 
 This plugin adds aliases for various [Lando CLI Default Commands](https://docs.lando.dev/basics/usage.html#default-commands/).
 
-To use it, add  `lando-alias` folder to the `.oh-my-zsh/plugins/` folder and then add `lando-alias` to the plugins array in your zshrc file:
+To use it, add `lando-alias-zsh` folder to the `.oh-my-zsh/custom/plugins/` folder and then add `lando-alias-zsh` to the plugins array in your zshrc file:
 
 ```zsh
 plugins=(... lando-alias)
